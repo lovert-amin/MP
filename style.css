@@ -104,12 +104,21 @@ button{
 }
 
 .footer{
-    height: 80px;
+    height: 90px;
     width: 100%;
 }
 
-
+.footer button{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-weight: bolder;
+    background-color: black;
+}
 .footer-info{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
     position: fixed;
     left: 0;
     bottom: 0;
