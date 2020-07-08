@@ -99,12 +99,35 @@ button{
    
 }
 
+
+/*//////styling the contact*/
+
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    background-color: red;
+}
+
+.contact-info{
+    display: block;
+    justify-content: space-between;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+    background-color: red;
+    color: white;
+}
+
 .process p{
     text-align: center;
 }
 
 .footer{
-    height: 90px;
+    height: 900px;
     width: 100%;
 }
 
